@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./componentes/header"; //Normalmente Usamos a primeira letra do Componente Maiuscula para não dar interferencia com o HTML na hora de chamar na linha 09 //
+import Footer from "./componentes/footer"; //Normalmente Usamos a primeira letra do Componente Maiuscula para não dar interferencia com o HTML na hora de chamar na linha 11 //
+import Card from "./componentes/card"; //Normalmente Usamos a primeira letra do Componente Maiuscula para não dar interferencia com o HTML na hora de chamar na linha 10 //
 
-function App() {
+
+function App() { 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <main className="Container">
+      <Header />  {/* Componente Header sendo chamado */}
+      <div className="Container-Card-Two">  
+        <Card /> {/* Componente Card sendo chamado */}
+        <Card /> {/* Componente Card sendo chamado */}
+        <Card /> {/* Componente Card sendo chamado */}
+      </div>
+      <Footer /> {/* Componente Footer sendo chamado */}
+   </main>
   );
 }
 
 export default App;
+
