@@ -1,18 +1,52 @@
 
-.Container-Card {
- width: 300px;
- height:300px;
- border: 5px solid black;
- margin: 100px;
- text-align: center;
- background-color: aliceblue;
- margin-top: 14%;
+@font-face {
+    font-family:Anja ;
+    src: url(Anja\ Eliane.ttf);
 }
 
+@font-face {
+    font-family:Molot;
+    src: url(Molot.otf);
+}
+
+.Container-Card {
+ width: 320px;
+ height:400px;
+ border: 10px solid #FCD24F;
+ border-radius: 20px;
+ margin: 100px;
+ text-align: center;
+ background-color: #EA8439;
+ margin-top: 12%;
+}
+
+.Container-Card:hover {
+    width: 330px;
+    height:410px;
+    border: 10px solid #FCD24F;
+    transition: 0.1s;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+
+
 h1 {
-    background-color: aliceblue;
+    background-color: #EA8439;
+    font-family: "Molot";
+    color: white;
+    
 }
 
 p {
-    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    background-color: #EA8439;
+    font-family: "Anja";
+    color: #F4F2EE;
+    margin-inline: 10px;
+    margin: center;
+    margin-top: 100px;
+    margin-inline: 30px;
+    font-size: 20px;
 }
+

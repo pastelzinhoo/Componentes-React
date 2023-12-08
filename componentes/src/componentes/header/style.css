@@ -1,8 +1,13 @@
+@font-face {
+    font-family:Anja ;
+    src: url(Anja\ Eliane.ttf);
+}
+
 header {
     display: flex;
     justify-content: center;
     padding: 1.25rem;
-    background-color: rgb(42, 90, 172);
-    font-weight: 900;
-    color: white;
+    background-color: #FCD24F;
+    color: #1F1347;
+    font-family: "Anja";
 }

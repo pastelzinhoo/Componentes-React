@@ -1,12 +1,9 @@
 footer {
-    margin-top: 225px;
     display: flex;
     justify-content: center;
-    background-color: rgb(42, 90, 172);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-    cursor: pointer;
+    padding: 1.25rem;
+    background-color: #FCD24F;
+    color: #1F1347;
+    font-family: "Anja";
+    margin-top: 135px;
 }
